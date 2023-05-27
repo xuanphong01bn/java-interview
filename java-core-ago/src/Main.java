@@ -1,7 +1,8 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world");
-        SubAbstract subAbstract = new SubAbstract();
-        subAbstract.abstractMethod();
+        SubInterface sub = new SubInterface();
+        sub.sayHello();
+        System.out.println("hello "+InterfaceClass.hello);
     }
 }
