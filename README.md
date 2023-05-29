@@ -33,5 +33,9 @@
       + LAP MOT LIST: stream.Stream<String> stream = list2.stream();
         stream.forEach(e-> System.out.println(e));
       
+      - Set: Collection (interface) -> Set (interface) -> EnumSet, HashSet(), LinkHashSet, TreeSet (instance)
+      + hashSet() backed ( ho tro ) hashMap()
+      - Map: hashMap() and TreeMap
+      
       
       
