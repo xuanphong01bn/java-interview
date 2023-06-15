@@ -17,7 +17,6 @@
     + Ứng dụng làm qui trình 3 bước:  public void stepBefore() {
         //implementation directly in abstract superclass
     }
-
     public abstract void action(); // implemented by subclasses
 
     public void stepAfter() {
@@ -25,7 +24,9 @@
     }
     + Interface: variable có thể truy cập truc tiep tu lop interface, lớp con ghi đè tất cả pht của lớp cha
       có thể implements nhiều giao diện, tuy nhiên phải ghi đè tất cả phương thức
-      
+    So sánh abstract và interface: 
+    abtract: có thể có abstract và normal method, đơn kế thừa, biến normal, có thể private
+    interface: only abstract method, có thể implements nhiều interfaces, biến auto là static final, auto public
 4. 28/5/2023: 1r->5h: collection in java (2h), sql code learn 1h30)
 5. Java Collection
   Java Collention interface - root collection interface, ko creat truc tiep Collection a = new Collection()
