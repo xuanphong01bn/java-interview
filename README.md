@@ -1,10 +1,10 @@
 # java-interview
-1. OOP:
+1. OOP: Đóng gói: các class có method và các biến để che giấu thông tin ( get và set ) / Kế thừa: class Student và Teacher đều kế thừa từ person / Đa hình: Overloading /  Trừu tượng: abstract, interface
 2. static: thuộc về class not instance, do đó mọi thể hiện đều truy cập vào 1 biến
   final: không thể thay đổi giá trị, final + static = const
   private: trong class
   default: trong 1 package
-  protected: các lớp con có thể acess, dù không cùng trường
+  protected: các lớp con có thể acess, dù không cùng package
   public: all class in app
   Ke thua: goi cac thuoc tinh private tu lop con, dung get()
   nest class: 
